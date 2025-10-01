@@ -19,3 +19,4 @@ jobs:
         with:
           count: 1
           labels: 'bug, enhancement, documentation, dependencies'
+          github-token: ${{ secrets.GITHUB_TOKEN }}
